@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Application - Talkie</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <section class="chat-section">
+        <div class="brand">
+            <img src="/logo.png" alt="Talkie Logo" height="40">
+            <h1>Talkie</h1>
+        </div>
+        <div class="message-area" id="messageArea"></div>
+        <div class="input-container">
+            <textarea id="textarea" cols="30" rows="1" placeholder="Write a message..."></textarea>
+            <button id="sendBtn">Send</button>
+        </div>
+    </section>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/client.js"></script>
+</body>
+</html>
